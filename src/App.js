@@ -1,5 +1,5 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 let timer;
 
