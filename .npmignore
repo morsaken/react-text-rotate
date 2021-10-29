@@ -3,10 +3,11 @@
 .git
 .gitignore
 .idea
-build
 jsconfig.json
 node_modules
 public
 rollup.config.js
 src
 yarn.lock
+yarn-error.log
+webpack.config.js

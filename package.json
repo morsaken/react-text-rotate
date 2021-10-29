@@ -1,7 +1,8 @@
 {
   "name": "react-text-rotate",
-  "version": "0.2.0",
+  "version": "0.2.5",
   "author": "Orhan POLAT",
+  "main": "index.js",
   "license": "MIT",
   "homepage": "https://github.com/morsaken/react-text-rotate.git#readme",
   "bugs": {
@@ -13,22 +14,16 @@
     "url": "https://github.com/morsaken/react-text-rotate.git"
   },
   "dependencies": {
-    "prop-types": "^15.7.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3"
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-react": "^7.14.5",
-    "@rollup/plugin-babel": "^5.3.0",
-    "@rollup/plugin-node-resolve": "^13.0.6",
-    "rollup": "^2.58.3",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-builtins": "^2.1.2",
-    "rollup-plugin-sourcemaps": "^0.6.3"
+    "@babel/preset-stage-0": "^7.8.3",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1"
   },
   "peerDependencies": {
     "react": "^17.0.2",
@@ -36,7 +31,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rollup -c && mv build/* .",
+    "build": "webpack",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
