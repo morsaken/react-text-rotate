@@ -1,4 +1,4 @@
-# React Rotate Text Usage
+# React Text Rotate Usage
 
 So simple to use. First import **ReactTextRotate** and use it in your application.
 
